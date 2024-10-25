@@ -1,11 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { useParams } from "react-router-dom";
-import DemoPage from './pages/demoPage.jsx'
-import './index.css'
-import Home from './Home.jsx'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { Route, BrowserRouter as Router, Routes, useParams } from 'react-router-dom';
+import Home from './Home.jsx';
+import './index.css';
+import DemoPage from './pages/demoPage.jsx';
 import Example from './pages/example.jsx';
+import OneBraincell from './pages/oneBraincell.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -24,9 +24,6 @@ function ProfileRouter() {
   const { name } = useParams();
 
   switch (name) {
-    case "Ryan(Demo)":
-      return <DemoPage />;
-
     // Change <DemoPage /> to your custom profile page, and change the case to your name
     case "Person1":
       return <DemoPage />;
@@ -42,8 +39,8 @@ function ProfileRouter() {
       return <DemoPage />;
     case "Person7":
       return <DemoPage />;
-    case "Person8":
-        return <DemoPage />;
+    case "OneOrangeBraincell":
+        return <OneBraincell />;
     case "Person9":
       return <DemoPage />;
     case "Person10":
