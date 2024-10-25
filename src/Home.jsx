@@ -13,8 +13,8 @@ export default function Home() {
     { name: "Person3", imageSrc: "/defaultpfp.jpg" },
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
     { name: "Person5", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person6", imageSrc: "/defaultpfp.jpg" },
     { name: "Yuanfei Song", imageSrc: "/Yuanfei.jpeg" },
+    { name: "Person7", imageSrc: "/defaultpfp.jpg" },
     { name: "OneOrangeBraincell", imageSrc: "/orange.png" },
     { name: "Siya Jariwala", imageSrc: "/siya_jariwala.jpeg" },
     { name: "Person10", imageSrc: "/defaultpfp.jpg" }
