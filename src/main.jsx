@@ -6,6 +6,7 @@ import './index.css';
 import DemoPage from './pages/demoPage.jsx';
 import Example from './pages/example.jsx';
 import OneBraincell from './pages/oneBraincell.jsx';
+import SiyaJariwala from './pages/siyaJariwala.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -41,8 +42,8 @@ function ProfileRouter() {
       return <DemoPage />;
     case "OneOrangeBraincell":
         return <OneBraincell />;
-    case "Person9":
-      return <DemoPage />;
+    case "SiyaJariwala":
+      return <SiyaJariwala />;
     case "Person10":
       return <DemoPage />;
     default:
