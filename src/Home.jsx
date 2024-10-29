@@ -15,7 +15,7 @@ export default function Home() {
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
     { name: "Person5", imageSrc: "/defaultpfp.jpg" },
     { name: "Person6", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person7", imageSrc: "/defaultpfp.jpg" },
+    { name: "Linda", imageSrc: "/linda_linkedin.jpeg"},
     { name: "Person8", imageSrc: "/defaultpfp.jpg" },
     { name: "Person9", imageSrc: "/defaultpfp.jpg" },
     { name: "Person10", imageSrc: "/defaultpfp.jpg" }
