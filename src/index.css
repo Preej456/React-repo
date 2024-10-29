@@ -96,6 +96,9 @@
 }
 
 .profile-img {
+    weight: 200px;
+    height: 200px;
+    object-fit: cover;
     transition: transform 0.3s ease;
     transform: scale(1);
     padding: 0.5rem;

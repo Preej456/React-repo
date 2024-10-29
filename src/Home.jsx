@@ -1,6 +1,6 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
+import { FaGithubSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 export default function Home() {
 
@@ -8,16 +8,15 @@ export default function Home() {
 
   // Names and images for each profile 
   const profileData = [
-    { name: "Ryan(Demo)", imageSrc: "/ryanpic.jpg" },  // Feel free to remove demo page whenever you want
     { name: "Person1", imageSrc: "/defaultpfp.jpg" },
     { name: "Person2", imageSrc: "/defaultpfp.jpg" },
     { name: "Person3", imageSrc: "/defaultpfp.jpg" },
     { name: "Person4", imageSrc: "/defaultpfp.jpg" },
     { name: "Person5", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person6", imageSrc: "/defaultpfp.jpg" },
+    { name: "Yuanfei Song", imageSrc: "/Yuanfei.jpeg" },
     { name: "Linda", imageSrc: "/linda_linkedin.jpeg"},
-    { name: "Person8", imageSrc: "/defaultpfp.jpg" },
-    { name: "Person9", imageSrc: "/defaultpfp.jpg" },
+    { name: "OneOrangeBraincell", imageSrc: "/orange.png" },
+    { name: "SiyaJariwala", imageSrc: "/siya_jariwala.jpeg" },
     { name: "Person10", imageSrc: "/defaultpfp.jpg" }
   ];
 
@@ -48,7 +47,7 @@ export default function Home() {
             <div key={profile.name} className="w-48 h-48 flex flex-col items-center font-monument text-xl">
               <Link to={`/profile/${profile.name}`}>
                 <img
-                  className="profile-img"
+                  className="profile-img w-48 h-48"
                   src={profile.imageSrc}
                   alt={`${profile.name}'s profile`}
                 />
