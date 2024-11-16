@@ -17,7 +17,7 @@ export default function Home() {
     { name: "Linda", imageSrc: "/linda_linkedin.jpeg"},
     { name: "OneOrangeBraincell", imageSrc: "/orange.png" },
     { name: "SiyaJariwala", imageSrc: "/siya_jariwala.jpeg" },
-    { name: "Person10", imageSrc: "/defaultpfp.jpg" }
+    { name: "UjjawalPrasad", imageSrc: "/ujjawal_prasad.jpeg" }
   ];
 
   const toggleOutline = () => {
